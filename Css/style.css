@@ -961,15 +961,6 @@ ul li {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 1670px) {
-    #elips, #molds {
-        display: none;
-    }
-    #section-China-background {
-        display: none;
-    }
-}
-
 
 @media only screen and (max-width: 1370px) {
     main {
@@ -996,7 +987,12 @@ ul li {
     #section-boel > div {
         justify-content: center;
     }
-    
+    #elips, #molds {
+        display: none;
+    }
+    #section-China-background {
+        display: none;
+    }
 }
 
 
